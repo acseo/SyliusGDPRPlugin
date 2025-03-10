@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Synolia\SyliusGDPRPlugin\EventSubscriber;
 
 use Sylius\Component\Core\Model\AddressInterface;
-use Sylius\Component\Resource\Repository\RepositoryInterface;
+use Sylius\Resource\Doctrine\Persistence\RepositoryInterface;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Synolia\SyliusGDPRPlugin\Event\BeforeAnonymize;
 use Synolia\SyliusGDPRPlugin\Provider\AnonymizerInterface;
